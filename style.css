@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+    background-color: black;
+}
+.mainbox{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 50px;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 300px;
+    margin-top: 20px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 70px;
+    margin-left: 450px;
+    padding-top: 100px;
+}
+.your{
+    width: 200px;
+    height: 30px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    font: 20px;
+}
+.en{
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: red;
+    margin-bottom: 20px;
+    
+}
+.de{
+    width: 90px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 100px;
+    color: blue;
+    margin-bottom: 20px;
+}
+.en:hover{
+    color: white;
+    background-color: red;
+}
+.de:hover{
+    color: white;
+    background-color: blue;
+}
